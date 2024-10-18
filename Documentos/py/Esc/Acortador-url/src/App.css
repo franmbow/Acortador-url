@@ -1,0 +1,173 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* css de la clase titulo */
+
+.Titulo {
+  display: flex;
+  justify-content:center;
+  vertical-align:auto;
+  color: #ffffff;
+  position:absolute;
+  top: 30%;
+  right:calc(50% - 200px);
+  left: calc(50% - 200px);
+  margin: 0 auto;
+  clear:left;
+  width: auto;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* css de el input */
+
+.datos{
+  border-radius: 100px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-top: 40px;
+  height: 30px;
+  width: 300px;
+  font: optional;
+  font-size: 20px;
+}
+
+/* css de el boton de acortar + animacion */
+
+.button1 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 30px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.button1:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button1:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+
+/* css de el div de el resultado */
+
+.Resultado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10px;
+  width: 100%;
+  padding-right: 10px;
+}
+
+/* css de la url resultado*/
+
+.Resultado p {
+  border-radius: 100px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  height: 30px;
+  width: 300px;
+  font: optional;
+  font-size: 20px;
+
+}
+
+/* css de el boton resultado + animacion */
+
+.button2 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 30px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.button2:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button2:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
